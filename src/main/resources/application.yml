@@ -11,7 +11,7 @@ spring:
             ddl-auto: create-drop
 
     datasource:
-        driver-class-name: com.mysql.jdbc.Driver
+        driver-class-name: com.mysql.cj.jdbc.Driver
         url: jdbc:mysql://${embedded.mysql.host}:${embedded.mysql.port}/${embedded.mysql.schema}
         username: ${embedded.mysql.user}
         password: ${embedded.mysql.password}
